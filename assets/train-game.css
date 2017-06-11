@@ -1,0 +1,96 @@
+body {
+  background-image: url("train-1.jpg");
+/*  background-image: url("train-2.jpg");*/
+}
+
+/*#background-opaque {
+	opacity: 0.75;
+}*/
+
+#style-it{
+	border-color: #A52A2A;
+}
+input[type = text], td{
+	color: #3D9970;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #A52A2A;
+	border-bottom: 1px solid #A52A2A;
+}
+/*tr {
+	border-top: 1px solid #A52A2A;
+	border-bottom: 1px solid #A52A2A;
+}*/
+
+#jumbotron-css{
+	border-width: 1px;
+	border-style: solid;
+}
+
+#jumbotron-css, #train-schedule, #add-a-train, #add-train-btn {
+	background-color: #000000;
+	color: #A52A2A;
+	text-align: center;
+	border-color: #A52A2A;
+}
+
+#panel-primary-style,
+#add-a-train-text-css,
+#train-schedule-text-css{
+	color: #A52A2A;
+	border-color: #A52A2A;
+}
+
+#train-name-input,
+#train-destination-input,
+#train-first-time-input,
+#train-frequency-input,
+#train-arrival-time-input,
+#panel-primary-style{
+	border-color: #A52A2A;
+	background-color: #000000;
+}
+#train-table, #panel-body-1-background-css{
+	text-align: center;
+	background-color: #000000;
+}
+
+#panel-body-2-background-css{
+	background-color: #000000;
+}
+
+/* ------------------- Media Queries -------------------- */
+/*Desktop Media Query*/
+@media screen and (max-width: 980px) {
+	body {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Tablet Media Query*/
+@media screen and (max-width: 768px) {
+	body {
+		width: 480px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Smartphone Media Query*/
+@media screen and (max-width: 640px) {
+	body {
+		width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

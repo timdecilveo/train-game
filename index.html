@@ -7,10 +7,6 @@
    <meta charset="UTF-8">
     <title>The Train Game</title>
     <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src = "https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
-    <script src = "https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <link rel = "stylesheet" type = "text/css" href = "assets/train-game.css"></script>
  </head>
 
@@ -81,7 +77,13 @@
                 <input class = "form-control" id = "train-arrival-time-input" type = "text">
               </div>
  -->
+             
+              <!-- Also, I think I know why your styling your html attributes like this (for better readability)
+                   and although there's nothing techinically wrong with it, it might look strange to 
+                   a boss/co-worker. Wouldn't want this to catch you by surprise -->
+             
               <button id = "add-train-btn" class = "btn btn-primary" type = "submit">Submit</button>
+             
             </form>
           </div>
         </div>
@@ -89,6 +91,12 @@
     </div>
   </div>
 
+  <!-- Make sure to include your script tags at the bottom of your HTML so they don't block rendering -->
+  <script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- And remove old references. They'll also be downloaded and add to page weight -->
+  <script src = "https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src = "https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
   <script src = "https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
   <script src = "assets/train-game.js"></script>
 </body>
